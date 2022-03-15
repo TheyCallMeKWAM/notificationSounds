@@ -24,3 +24,10 @@ audio4.oncanplaythrough = function(){
 audio4.play();
 
 }
+
+var audio5 = new Audio("audiofiles/dazzle.mp3");
+audio5.oncanplaythrough = function(){
+    audio5.volume = 0.2;
+audio5.play();
+
+}

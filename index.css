@@ -3,16 +3,26 @@
   }
   
   html, body {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
     background: #E0EAFC;
     background: linear-gradient(to left, #E0EAFC , #CFDEF3);
     font-family: 'Oswald', sans-serif;
   }
-  
+    .sounds{
+      height: 100%;
+      width: 100%;
+      display: block;
+      justify-content: center;
+      align-items: center;
+    }
+
+    h1{
+      text-transform: uppercase;
+      font-size: 75px;
+      display: block;
+      
+    }
+
     input {
     text-align: center;
     height: 65px;
@@ -30,11 +40,16 @@
     background: #e74c3c;
     transition: background 0.05s linear;
     transition: all .05s linear;
-    margin: 0 10px 0 10px;
+    margin: 10px 10px 10px 10px;
   }
   
    input:active {
     box-shadow: 2px 2px 2px #777;
     border-bottom: 1px solid #c0392b;
     transform: translateY(3px);
+  }
+
+  footer{
+    position: absolute; bottom: 0; right: 0;
+    padding-right: 20px;
   }
